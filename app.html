@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webChat</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <!-- chatapp -->
+        <div class="chatapp">
+            <!-- header starts -->
+            <div class="header">
+                <div class="name-details">
+                    <img class="avatar" src="https://img.freepik.com/free-icon/user_318-159711.jpg" alt="">
+                    <h4>Pranav</h4>
+                </div>
+                <a href="3#" class=" log-out-main-link">Log Out</a>
+            </div>
+            <!-- header ends -->
+
+            <!-- message section -->
+            <div class="chat-section">
+                <div class="single-chat">
+                    <img class="avatar" src="https://img.freepik.com/free-icon/user_318-159711.jpg" alt="">
+                    <div class="message-details">
+                        <h5>Hari</h5>
+                        <p>test messagesss</p>
+                        <small>2023-04-12</small>
+                    </div>
+                </div>
+            </div>
+            <!-- message section ends -->
+
+            <!-- message typres here -->
+            <div class="message">
+                <form id="enter message">
+                    <input type="text" id="pholder" placeholder="Message goes here...." name="message">
+                    <button type="submit" class="main-link">send</button>
+                </form>
+            </div>
+        </div>
+        <!-- chatapp -->
+    </div>
+
+<script type="module" src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js"></script>
+<script type="module" src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
+<script type="module" src="https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js"></script>
+</body>
+
+</html>
